@@ -1,8 +1,7 @@
 * {
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	font-size: 11px;
 	font-style: normal;
-	font-weight: 400;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -36,7 +35,7 @@ li {
 
 a {
 	color: #0027FF;
-	font-weight: 400;
+	font-style: oblique;
 	text-decoration: none;
 	cursor: pointer;
 
@@ -145,7 +144,6 @@ figure img:hover {
 figure a {
 	display: block;
 	color: #0027FF;
-	font-style: normal;
 	font-weight: 400;
 	text-align: right;
 }
@@ -159,15 +157,11 @@ footer .download_link {
 }
 
 footer .copyright {
-	font-family: "Helvetica Neue", sans-serif;
-	font-style: oblique;
 	margin-top: 1rem;
 }
 
 footer .copyright a {
-	font-family: "Helvetica Neue", sans-serif;
 	font-style: oblique;
-	font-weight: 700;
 
 
 }
@@ -186,7 +180,7 @@ footer .copyright a:hover {
 
 }
 
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 60rem) {
 
 	main {
 		width: 100%;
